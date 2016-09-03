@@ -1,0 +1,24 @@
+$bgColor: #efefef;
+$bgNavigation: #23ce50;
+$hoverColor: blue;
+
+body {
+  background: $bgColor;
+}
+nav {
+  ul {
+    background: $bgNavigation;
+    list-style: none;
+    margin: 10;
+    padding: 10;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    &:hover {
+      background: $hoverColor;
+    }
+  }
+}
